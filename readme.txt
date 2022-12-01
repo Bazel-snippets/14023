@@ -1,0 +1,1 @@
+Command to run: bazel build demo --platforms=//platforms:platform_1
