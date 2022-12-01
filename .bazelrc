@@ -1,1 +1,3 @@
 build --experimental_output_directory_naming_scheme=diff_against_baseline
+build --experimental_convenience_symlinks=clean
+build --platform_mappings=platform_mappings

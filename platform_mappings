@@ -1,0 +1,13 @@
+platforms:
+  //platforms:platform_1
+    --cpu=cpu_1
+
+  //platforms:platform_2
+    --cpu=cpu_2
+
+  flags:
+  --cpu=cpu_1
+    //platforms:platform_1
+
+  --cpu=cpu_2
+    //platforms:platform_2
