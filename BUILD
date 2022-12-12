@@ -24,15 +24,15 @@ sample_rule(
 )
 
 transitioner_rule(
-    name = "target_3_to_platform_2",
+    name = "target_3_to_platform_1",
     deps = "target_3",
-    transition_to_platform = "//platforms:platform_2"
+    transition_to_platform = "//platforms:platform_1",
 )
 
 transitioner_rule(
     name = "target_3_back_to_platform_1",
-    deps = "target_3_to_platform_2",
-    transition_to_platform = "//platforms:platform_1"
+    deps = "target_3_to_platform_1",
+    transition_to_platform = "//platforms:platform_2",
 )
 # =====================================================
 
